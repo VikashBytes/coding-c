@@ -13,6 +13,6 @@ printf("enter value of b :"); // b = 2nd number.
 printf("\n");
 
     r = a-(b*q); // multiply b and q and subtract from a.
-printf(" remainder : %d",r); // print remainder.
+printf(" the remainder when %d is divided by %d is : %d",a,b,r); // print remainder.
     return 0;
 }
