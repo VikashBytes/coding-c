@@ -16,7 +16,7 @@ int main() {
 
     // Print the result
     printf("Simple Interest: %.2f\n", si); // Formatting to two decimal places
-    totalamount = (si+p);
-    printf("totalamount : %2f",totalamount);
+    totalamount = (si + p);
+    printf("totalamount : %.2f",totalamount);
     return 0;
 }
