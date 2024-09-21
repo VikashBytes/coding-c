@@ -10,10 +10,12 @@ if(n%2==0){
 printf("Even Number");
 }
 //odd condition by IF!
-if (n%2!=0)
-{
+//if (n%2!=0)
+//{
+   // printf("Odd number");
+//}
+else{
     printf("Odd number");
 }
-
     return 0;
 }
