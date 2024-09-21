@@ -9,7 +9,7 @@ scanf("%d",&n);
 if(n%2==0){
 printf("Even Number");
 }
-//odd condition!
+//odd condition by IF!
 if (n%2!=0)
 {
     printf("Odd number");
