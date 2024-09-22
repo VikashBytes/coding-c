@@ -9,10 +9,17 @@ scanf("%d",&sp);
 if (sp>cp)
 {
     profit = sp - cp;
+    printf("profit = %d\n",profit);
 }
-printf("profit = %d",profit);
 
+else if (cp > sp){
+    loss = cp - sp;
+    printf("loss = %d\n",loss);
+}
 
-
+else
+{
+    printf("no loss, no profit\n");
+}
     return 0;
 }
