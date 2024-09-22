@@ -28,11 +28,7 @@ if (sp>cp)
 printf("you have made profit of : %d",profit);
 
 printf("\n");
-if (cp>sp)
-{
-    loss = cp - sp;
-}
-printf("you have made losss of : %d",loss);
+
 
     return 0;
 }
