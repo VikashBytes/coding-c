@@ -15,12 +15,12 @@ int main()
         }
         else
         {
-            printf("it is not divisible : ");
+            printf("the number is divisible by by 15 :");
         }
     }
     else
     {
-        printf("it is not divisible : ");
+        printf("the number is divisible by 3 or 5 but not by 15 :");
     }
 
     return 0;
