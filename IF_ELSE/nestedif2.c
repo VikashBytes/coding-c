@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            printf("the number is divisible by by 15 :");
+            printf("the number is divisible by 15 :");
         }
     }
     else
