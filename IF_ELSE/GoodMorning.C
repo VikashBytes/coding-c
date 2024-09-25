@@ -2,7 +2,7 @@
 int main()
 {
 int n;
-printf("enter the secret code");
+printf("enter the secret code : ");
 scanf("%d",&n);
 if (n>=2)
 {
