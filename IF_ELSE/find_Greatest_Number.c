@@ -10,19 +10,20 @@ int main()
 
     printf("enter 3rd number");
     scanf("%d", &c);
-
-    if (a > b && a > c)
+    if (a > b)
     {
-        if (b > a && b > c)
-        {
-            printf("2nd number is greatest");
-        }
-
-        printf("1st number is greatest");
+        if (a > c)
+            printf("%d is greatest", a);
+        else
+            printf("%d is greatest", c);
     }
     else
     {
-        printf("3rd number is greatest");
+        if (b > c)
+            printf("%d is greatest", b);
+        else
+            printf("%d is greatest",c);
     }
+
     return 0;
 }
