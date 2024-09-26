@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Predict the output - 1
+// Predict the output - 5
 int main()
 {
     int x, y, z;
