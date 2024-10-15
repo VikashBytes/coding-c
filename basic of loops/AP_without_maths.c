@@ -5,7 +5,7 @@ int n;
 printf("Enter a number : ");
 scanf("%d",&n);
 int a = 4;
-for (int i = 1; i <=n; i++)
+for (int i = 4; i <=n; i++)
 {
     a = a+3;
     printf("%d ",a); 
