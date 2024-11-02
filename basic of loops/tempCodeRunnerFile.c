@@ -1,2 +1,1 @@
-printf("Enter the number : ");
-// scanf("%d",&n);
+x=x-1;
