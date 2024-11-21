@@ -17,7 +17,6 @@ int main()
         sum = sum + pow(x, i); // Calculate x to the power of i and add to sum
         i++;
     }
-
     printf("The sum of the series is: %.2f\n", sum);
     return 0;
 }
