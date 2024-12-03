@@ -7,11 +7,11 @@ int main()
     int factorial = 1;
     for (int i = 1; i <= n; i++)
     {
-        
+
         factorial = factorial * i;
-        printf("factorial of %d : %d\n",i, factorial);
+        //printf("factorial of %d : %d\n", i, factorial);
     }
-    // int i = 1;
+    printf("the factorial of given number is =%d", factorial);
     // while (i<=n)
     // {
     //     factorial = factorial * i;
