@@ -3,15 +3,14 @@ int main(){
 int n;
 printf("Enter a number : ");
 scanf("%d",&n);
-int fn = 1;
-int store = 0;
-for (int i = 1; i <=n; i++)
+int a=1,b=1,sum=1;
+for (int i = 1; i <=n-2; i++)
 {
-    store = i;
-    printf("%d\n", fn);
-    fn = fn+store;
-    
+   sum = a + b;
+   //printf("the %dth fibonacci is %d\n", i, sum);
+   a=b;
+   b=sum;
 }
-
-    return 0;
+printf("the %dth fibonacci is %d",n, sum);
+return 0;
 }
