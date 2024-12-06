@@ -23,18 +23,18 @@ int main()
     printf("Enter the number of Fibonacci numbers to print: ");
     scanf("%d", &n);
 
-    if (n >= 2)
-    {
-        printFibonacci(n);
-    }
-    else if (n == 1)
-    {
-        printf("0\n"); // Print the first Fibonacci number
-    }
-    else
-    {
-        printf("Please enter a positive integer greater than 0.\n");
-    }
+    // if (n >= 2)
+    // {
+    //     printFibonacci(n);
+    // }
+    // else if (n == 1)
+    // {
+    //     printf("0\n"); // Print the first Fibonacci number
+    // }
+    // else
+    // {
+    //     printf("Please enter a positive integer greater than 0.\n");
+    // }
 
     return 0;
 }
