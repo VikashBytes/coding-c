@@ -12,6 +12,6 @@ int main()
         printf("%d", lastdigit);
         n = n / 10;
     }
-    
+
     return 0;
 }
