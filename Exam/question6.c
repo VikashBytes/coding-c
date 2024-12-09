@@ -1,14 +1,24 @@
 #include <stdio.h>
-int main(){
-int n = 5000;
-for (int i = 5; i < n-1; i++)
+int main()
 {
-    if (n%i==0 && n%2==0)
+    int a = 0;
+    for (int i = 5; i < 5000; i++)
     {
-        printf("%d\n",i);
+        for (int j = 2; j < i - 1; j++)
+        {
+            if (i % j == 0)
+            {
+                a = 1;
+            }
+            
+        }
+        if (a == 0)
+        {
+            printf("The number is prime : %d\n",i);
+        }
+        a = 0;
     }
     
-}
 
     return 0;
 }
