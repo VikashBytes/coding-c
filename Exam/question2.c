@@ -5,7 +5,7 @@ int main()
     printf("Enter the number : ");
     scanf("%d", &n);
      int temp = n;
-    while (n % 10 != 0)
+    while (n!= 0)
     {
         lastdigit = n % 10;
         sum = lastdigit * lastdigit * lastdigit + sum;
@@ -13,7 +13,7 @@ int main()
     }
     if (sum ==temp)
     {
-        printf("%d", sum);
+        printf(" it is an armstrong number %d", sum);
     }
     else printf("it is not a armstrontg number");
     return 0;
